@@ -7,30 +7,30 @@
     tools:context="com.example.sai.funky.LoginActivity">
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/username"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_marginTop="164dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="username"
+        android:hint="username"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/password"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_below="@+id/editText"
+        android:layout_below="@+id/username"
         android:layout_marginTop="53dp"
         android:ems="10"
         android:inputType="textPassword"
-        android:text="password"
+        android:hint="password"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true" />
 
@@ -40,7 +40,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="64dp"
         android:text="Sign in"
-        android:layout_below="@+id/editText2"
+        android:layout_below="@+id/password"
         android:layout_centerHorizontal="true" />
 
     <Button

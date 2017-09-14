@@ -15,10 +15,10 @@ public class LoginActivity extends AppCompatActivity {
         final Button signup_button = (Button) findViewById(R.id.signup);
         signup_button.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                // Start NewActivity.class
                 Intent singupIntent = new Intent(LoginActivity.this,
                         RegistrationActivity.class);
-                startActivity(singupIntent);            }
+                startActivity(singupIntent);
+            }
         });
     }
 }
